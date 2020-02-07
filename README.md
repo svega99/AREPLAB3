@@ -1,6 +1,12 @@
 # Laboratorio 3
 
-Impleentacion de los retos 1 y 2, servidores de HTTP.
+Implementación de los retos 1 y 2, servidores de HTTP.
+
+## Links directos a cada repositorio: 
+
+[Reto 1](https://github.com/svega99/AREPLAB3RETO1)
+
+[Reto 2](https://github.com/svega99/AREPLAB3RETO2)
 
 ## Empezando
 
@@ -36,17 +42,41 @@ Para instalar el repositorio con los calentamientos se instala en la ruta desead
 > git clone https://github.com/svega99/AREPLAB3.git
 
 ```
-Para compilar el proyecto desde maven:
+
+ Para instalar el repositorio con el reto numero 1:
+ 
+ ```
+> git clone https://github.com/svega99/AREPLAB3RETO1.git
+
+```
+
+ Para instalar el repositorio con el reto numero 2:
+
+```
+> git clone https://github.com/svega99/AREPLAB3RETO2.git
+
+```
+
+
+Para compilar desde maven:
 
 ```
 > mvn package
 ```
+ 
 ## Ejecutando el programa
 
-Link a heroku del programa: 
-[![Heroku](https://camo.githubusercontent.com/be46aee4f8d55e322c3e7db60ea23a4deb5427c9/68747470733a2f2f6865726f6b752d62616467652e6865726f6b756170702e636f6d2f3f6170703d6865726f6b752d6261646765)](https://ancient-taiga-60700.herokuapp.com/inputdata)
+Link a heroku del reto 1: 
+[![Heroku](https://camo.githubusercontent.com/be46aee4f8d55e322c3e7db60ea23a4deb5427c9/68747470733a2f2f6865726f6b752d62616467652e6865726f6b756170702e636f6d2f3f6170703d6865726f6b752d6261646765)](https://aqueous-island-76236.herokuapp.com/index.html)
 
-Si quiere ejecutar el programa desde local se puede poner le la linea de comandos desde la ruta del proyecto:
+En el reto 1 a parte de la ruta principal index.html, se encuentran otros archivos que también pueden ser cargados como /file.html, /labinformatica.png y /logo.jpg.
+
+
+Link a heroku del reto 2: 
+[![Heroku](https://camo.githubusercontent.com/be46aee4f8d55e322c3e7db60ea23a4deb5427c9/68747470733a2f2f6865726f6b752d62616467652e6865726f6b756170702e636f6d2f3f6170703d6865726f6b752d6261646765)](https://still-woodland-01460.herokuapp.com/)
+
+
+Si quiere ejecutar cualquier programa desde local se puede poner en la linea de comandos desde la ruta del proyecto:
 
 ```
 > mvn clean install
@@ -54,8 +84,6 @@ Si quiere ejecutar el programa desde local se puede poner le la linea de comando
 > heroku local web
 
 ```
-
-En la página se encuentra un formulario que pedira los numeros separados por comas, si no se hace de esta manera el calculo no se hará de manera correcta. Al darle click botón "Submit" se redirigirá a una página con la respuesta. 
 
 
 ## Corriendo los tests
