@@ -85,36 +85,6 @@ Si quiere ejecutar cualquier programa desde local se puede poner en la linea de 
 
 ```
 
-
-## Corriendo los tests
-
-Para correr los tests:
-
-```
-> mvn test
-...
-[INFO] -------------------------------------------------------
-[INFO]  T E S T S
-[INFO] -------------------------------------------------------
-[INFO] Running edu.escuelaing.app.CalculatorTest
-[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in edu.escuelaing.app.CalculatorTest
-[INFO] Running edu.escuelaing.app.LinkedListTest
-[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in edu.escuelaing.app.LinkedListTest
-[INFO]
-[INFO] Results:
-[INFO]
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
-[INFO]
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  7.922 s
-[INFO] Finished at: 2020-01-30T10:49:33-05:00
-[INFO] ------------------------------------------------------------------------
-```
-
-El programa usa dos clases de test. ```LinkedListTest``` prueba el funcionamiento de la LinkedList y ```CalculatorTest``` prueba que la media y la desviación estandar se calculen de la forma adecuada.
-
 ## Diseño
 
 [DISEÑO.pdf](DISEÑO.pdf)
